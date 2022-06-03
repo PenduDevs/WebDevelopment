@@ -1,0 +1,64 @@
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  /*to make the height and width responsive*/
+  width: 40vw;
+  background: url(img.png) no-repeat;
+  /*setting our background image*/
+  background-size: 50%;
+}
+
+#hour,
+#minute,
+#second,
+#digital {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 18%;
+  top: 7%;
+  left: 23.85%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 20%;
+  top: 5%;
+  left: 23.9%;
+  opacity: 0.8;
+}
+
+#second {
+  background-color: red;
+  width: 1%;
+  height: 21%;
+  top: 4%;
+  left: 24.25%;
+  opacity: 0.8;
+}
+#digital {
+  left: 80%;
+  top: 20%;
+  height: 7rem;
+  width: 20rem;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  line-height: 6rem;
+  background-image: linear-gradient(to right, indigo, violet);
+}
+#digital:hover {
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+  text-shadow: 0 0 5px rgb(233, 243, 88), 0 0 25px rgb(233, 243, 88),
+    0 0 50px rgb(233, 243, 88), 0 0 100px rgb(233, 243, 88);
+}

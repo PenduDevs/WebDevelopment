@@ -1,0 +1,167 @@
+#hour,
+#minute,
+#second,
+#digital {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 45%;
+  top: 5%;
+  left: 47.85%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 45.5%;
+  top: 5%;
+  left: 46.9%;
+  opacity: 0.8;
+}
+
+#second {
+  background-color: red;
+  width: 1%;
+  height: 45%;
+  top: 4.7%;
+  left: 48.25%;
+}
+
+#wraper:hover {
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+  text-shadow: 0 0 5px rgb(233, 243, 88);
+}
+
+/*
+    drawing clock
+    */
+#wraper {
+  width: 30em;
+  height: 30em;
+  background-color: rgb(143 136 136);
+  border-radius: 50%;
+  border: solid rgb(5, 5, 5) 6px;
+  position: absolute;
+}
+#three,
+#six,
+#nine,
+#twelve,
+#center,
+#one,
+#two,
+#four,
+#five,
+#seven,
+#eight,
+#ten,
+#eleven {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#three {
+  left: 465px;
+  top: 148px;
+  transform: rotate(5deg);
+}
+#six {
+  top: 331px;
+  left: 239px;
+}
+#nine {
+  left: 2px;
+  top: 74px;
+}
+#twelve {
+  top: -182px;
+  left: 214px;
+}
+#center {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border: 5px white solid;
+  border-radius: 50%;
+  box-shadow: 0 0 5% #2703f4;
+  top: 22px;
+  left: 224px;
+}
+
+#one {
+  left: 345px;
+  top: 24px;
+  transform: rotate(40deg);
+}
+#two {
+  top: 102px;
+  left: 440px;
+  transform: rotate(61deg);
+}
+#one,
+#two,
+#four,
+#five,
+#seven,
+#eight,
+#ten,
+#eleven {
+  width: 6px;
+  height: 12px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 6px;
+}
+#four {
+  top: 405px;
+  left: 369px;
+  transform: rotate(135deg);
+}
+#five {
+  top: 310px;
+  left: 445px;
+  transform: rotate(112deg);
+}
+#seven {
+  top: 400px;
+  left: 139px;
+  transform: rotate(207deg);
+}
+#eight {
+  top: 300px;
+  left: 38px;
+  transform: rotate(49deg);
+}
+#ten {
+  left: 31px;
+  top: 48px;
+  transform: rotate(124deg);
+}
+#eleven {
+  left: 103px;
+  top: -43px;
+  transform: rotate(133deg);
+}
+#grace {
+  left: 120px;
+  top: -150px;
+  position: relative;
+  background: whitesmoke;
+  width: 15rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Frijole';
+  color: red;
+  opacity: 0.6;
+  z-index: 9;
+  
+}

@@ -1,0 +1,46 @@
+.wraper{
+    margin: auto;
+  width: 35%;
+  padding: 10px;
+}
+.left, .right{
+    display: inline-block;
+}
+.left{
+    float: left;
+}
+.right{
+    padding-top: 5rem;
+    width: 10rem;
+    float: right;
+}
+button{
+    background: rgb(194, 58, 80);
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+button:hover,
+button:focus{
+    border-radius: 7px;
+    background: rgb(10, 11, 82);
+    cursor: pointer;
+}
+input, textarea{
+    border: none;
+    height: 3rem;
+    box-shadow: 0px 0.5px #dfdfdf;
+    margin: 5px auto;
+}
+textarea{
+    height: 5rem;
+}
+.w10{
+    width: 22rem;
+}
+p{
+    font-size: 15px;
+}
