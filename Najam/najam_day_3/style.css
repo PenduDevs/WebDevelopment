@@ -1,0 +1,33 @@
+body {
+  color: #fff;
+  background: #6e1e75;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: rgb(155, 223, 100);
+  color: rgb(222, 23, 240);
+  font-size: 100px;
+  text-align: center;
+  line-height: 200px;
+  display: inline-block;
+}
+
+.rect {
+  border-radius: 0 !important;
+}
+
+.triangle {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bg-red {
+  background: rgb(0, 217, 255);
+}
+
+.yellow {
+  color: yellow;
+}

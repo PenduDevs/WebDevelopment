@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+        <script src="script.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <section>
+            <div>
+                <h1>Using Buttons</h1>
+                <textarea type="text" placeholder="Type Something and press enter" id="input-field" autofocus></textarea>
+                <br><br>
+            </div>
+            <div id="gray">
+                <div>
+                    <button class="word" onclick="typeQ()">q</button>
+                    <button class="word" onclick="typeW()">w</button>
+                    <button class="word" onclick="typeW()">e</button>
+                    <button class="word" onclick="typeR()">r</button>
+                    <button class="word" onclick="typeT()">t</button>
+                    <button class="word" onclick="typeY()">y</button>
+                    <button class="word" onclick="typeU()">u</button>
+                    <button class="word" onclick="typeI()">i</button>
+                    <button class="word" onclick="typeO()">o</button>
+                    <button class="word" onclick="typeP()">p</button>
+                </div>
+                <div>
+                    <button class="word secondRow" onclick="typeA()">a</button>
+                    <button class="word secondRow" onclick="typeS()">s</button>
+                    <button class="word secondRow" onclick="typeD()">d</button>
+                    <button class="word secondRow" onclick="typeF()">f</button>
+                    <button class="word secondRow" onclick="typeG()">g</button>
+                    <button class="word secondRow" onclick="typeH()">h</button>
+                    <button class="word secondRow" onclick="typeJ()">j</button>
+                    <button class="word secondRow" onclick="typeK()">k</button>
+                    <button class="word secondRow" onclick="typeL()">l</button>
+                </div>
+                <div>
+                    <button class="word delete bi bi-backspace" id="del" onclick="del()"></span>
+                    <button class="word" onclick="typeZ()">z</button>
+                    <button class="word" onclick="typeX()">x</button>
+                    <button class="word" onclick="typeC()">c</button>
+                    <button class="word" onclick="typeV()">v</button>
+                    <button class="word" onclick="typeB()">b</button>
+                    <button class="word" onclick="typeN()">n</button>
+                    <button class="word" onclick="typeM()">m</button>
+                    <button class="word" id="enter" onclick="enter()"> enter</button>
+                </div>
+                <div>
+                    <button class="word" id="space" onclick="space()">Space</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h1>using span</h1>
+            </div>
+            <div id="gray">
+                <div>
+                    <span class="word p-top">q</span>
+                    <span class="word p-top">w</span>
+                    <span class="word p-top">e</span>
+                    <span class="word p-top">r</span>
+                    <span class="word p-top">t</span>
+                    <span class="word p-top">y</span>
+                    <span class="word p-top">u</span>
+                    <span class="word p-top">i</span>
+                    <span class="word p-top">o</span>
+                    <span class="word p-top">p</span>
+                </div>
+                <div>
+                    <span class="word secondRow p-top">a</span>
+                    <span class="word secondRow p-top">s</span>
+                    <span class="word secondRow p-top">d</span>
+                    <span class="word secondRow p-top">f</span>
+                    <span class="word secondRow p-top">g</span>
+                    <span class="word secondRow p-top">h</span>
+                    <span class="word secondRow p-top">j</span>
+                    <span class="word secondRow p-top">k</span>
+                    <span class="word secondRow p-top">l</span>
+                </div>
+                <div>
+                    <span class="word delete p-top bi bi-backspace"></span>
+                    <span class="word p-top">z</span>
+                    <span class="word p-top">x</span>
+                    <span class="word p-top">c</span>
+                    <span class="word p-top">v</span>
+                    <span class="word p-top">b</span>
+                    <span class="word p-top">n</span>
+                    <span class="word p-top">m</span>
+                    <span class="word ent p-top"> enter</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <h1>using table </h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>q</td>
+                        <td>w</td>
+                        <td>e</td>
+                        <td>r</td>
+                        <td>t</td>
+                        <td>y</td>
+                        <td>u</td>
+                        <td>i</td>
+                        <td>o</td>
+                        <td>p</td>
+                    </tr>
+                    <tr>
+                        <td class="secondRow">a</td>
+                        <td class="secondRow">s</td>
+                        <td class="secondRow">d</td>
+                        <td class="secondRow">f</td>
+                        <td class="secondRow">g</td>
+                        <td class="secondRow">h</td>
+                        <td class="secondRow">j</td>
+                        <td class="secondRow">k</td>
+                        <td class="secondRow">l</td>
+                    </tr>
+                    <tr>
+                        <td class="delete bi bi-backspace"></td>
+                        <td>z</td>
+                        <td>x</td>
+                        <td>c</td>
+                        <td>v</td>
+                        <td>b</td>
+                        <td>n</td>
+                        <td>m</td>
+                        <td class="ent">enter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </body>
+</html>

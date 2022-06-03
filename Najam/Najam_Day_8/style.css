@@ -1,0 +1,84 @@
+body {
+  background-color: #edecece6;
+}
+div {
+  margin: 0px 8px 8px 150px;
+}
+.word {
+  width: 5rem;
+  height: 4rem;
+  background-color: #cecfcef0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+.secondRow {
+  width: 5.6rem;
+}
+#enter {
+  width: 7.6rem;
+  font-size: 32px;
+}
+#del {
+  width: 7.6rem;
+  margin-right: 5px;
+}
+#space{
+    margin-left: 15rem;
+    width: 20rem;
+}
+textarea {
+  width: 35rem;
+  height: 4rem;
+  border: solid 2px gray;
+  background-color: transparent;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20rem;
+}
+button:hover {
+  box-shadow: rgb(9, 10, 97) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+section:hover{
+    box-shadow:  rgb(73, 110, 58) 0 1px 30px;
+}
+section{
+    width: auto;
+    height: auto;
+    box-shadow: rgb(97, 10, 97) 0 1px 30px;
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 20px;
+}
+h1{
+margin-left: 35rem;;
+}
+td{
+    width: 5rem;
+  height: 3.6rem;
+  background-color: #cecfcef0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  margin:0px 5px 5px 0px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+table{
+    margin-left: 18.5rem;
+}
+.ent, .delete{
+    width: 7.6rem;
+  margin-right: 5px;
+}
+.p-top{
+    padding-top: 20px;
+}

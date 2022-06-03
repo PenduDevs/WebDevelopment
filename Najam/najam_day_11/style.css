@@ -1,0 +1,58 @@
+#body{
+    margin-top: 5rem;
+    margin-left: 14rem;
+    width: 90rem;
+    height: 60rem;
+    background: #EE6769;
+    position: absolute;
+}
+.wrapper{
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 20rem;
+    width: 50rem;
+    height: 12rem;
+    background: rgb(83, 78, 78);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.transparrent, .mehroon, .browon{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 15px;
+}
+
+.transparrent{
+    border: solid 2px white;
+    background: #EE6769;
+}
+
+.mehroon{
+    background: rgb(161, 103, 103);
+}
+
+.browon{
+    background: rgb(107, 103, 103);
+}
+#road{
+    background: rgb(36, 48, 66);
+    width: 50rem;
+    height: 3.2rem;
+    margin-left: 20rem;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#txt{
+    font-size: 200px;
+    margin-left: 20rem;
+}
+
+#media{
+    margin-left: 30rem;
+}
