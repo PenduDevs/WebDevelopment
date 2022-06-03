@@ -1,0 +1,115 @@
+body {
+  background-color: #e6e6e6;
+}
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 99%;
+  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+h2 {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+}
+.name {
+  position: absolute;
+  margin: 110px 0px 2px 110px;
+  font-size: 15px;
+}
+#full_name {
+  padding: 30px 0px 30px 10px;
+  margin: 100px 0px 10px 100px;
+  width: 67%;
+  font-size: 0.875rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdbdb;
+  color: #495057;
+  border-radius: 10px;
+}
+.email {
+  position: absolute;
+  margin: 20px 0px 5px 110px;
+  font-size: 15px;
+}
+#email {
+  z-index: -1;
+  padding: 30px 0px 30px 10px;
+  margin: 10px 0px 10px 100px;
+  width: 30%;
+  font-size: 0.875rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdbdb;
+  color: #495057;
+  border-radius: 10px;
+}
+.phone {
+  position: absolute;
+  margin: 20px 0px 5px 51%;
+}
+#phone {
+  z-index: -1;
+  padding: 30px 0px 30px 10px;
+  margin: 10px 10px 10px 50%;
+  font-size: 0.875rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdbdb;
+  color: #495057;
+  width: 30%;
+  border-radius: 10px;
+}
+.service {
+  position: absolute;
+  margin: 190px 0px 5px 110px;
+}
+#service {
+  z-index: -1;
+  padding: 40px 0px 20px 10px;
+  margin: 180px 10px 0px 100px;
+  font-size: 0.875rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdbdb;
+  color: #495057;
+  border-radius: 10px;
+}
+#btn {
+  width: 25%;
+  margin: 350px 0px 0px 260px;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  cursor: pointer;
+  background: linear-gradient(
+    to left,
+    rgb(245, 245, 245) -10%,
+    rgb(43, 44, 43) 90%
+  );
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+#btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 48, 48);
+}
+select {
+  position: absolute;
+  width: 68%;
+  margin: 100px 0px 0px 100px;
+  font-size: 0.875rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdbdb;
+  color: #495057;
+  border-radius: 10px;
+  height: 50px;
+}

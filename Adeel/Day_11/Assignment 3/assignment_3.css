@@ -1,0 +1,68 @@
+body {
+  background-color: #f46767;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0e0e;
+  opacity: 95%;
+  width: 400px;
+  height: 100px;
+  gap: 10px;
+  border-radius: 20px;
+  border-bottom: 30px solid #000000;
+}
+.box-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.box-item1 {
+  background-color: rgb(230, 81, 81);
+}
+.box-item2 {
+  background-color: rgb(58, 15, 15);
+}
+.box-item3 {
+  background-color: rgb(177, 211, 26);
+}
+.box-item4 {
+  background-color: rgb(22, 185, 172);
+}
+.box-item5 {
+  background-color: rgb(163, 17, 17);
+}
+h1 {
+  font-size: 90px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+div img {
+  width: 100px;
+}
+.discord {
+  width: 50px;
+}
+.play {
+  border-radius: 50%;
+}
+.stop {
+  margin-right: -25px;
+}
+.txt{
+  position: absolute;
+  margin-top: -300px;
+  color: white;
+  font-size: 20px;
+}

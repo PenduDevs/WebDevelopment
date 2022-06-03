@@ -1,0 +1,49 @@
+body {
+  /* background-color: #0e0e0e; */
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  background-color: #f34e60;
+  padding-top: 2px;
+  width: 100%;
+  height: 26em;
+}
+h1 {
+  margin-left: 8px;
+  font-size: 3.5em;
+  font-weight: bold;
+  background-color: #3469fb;
+}
+p {
+  font-size: 2.5em;
+  margin-left: 8px;
+}
+.lorem {
+  background-color: #f34728;
+  padding-right: 12px;
+}
+.expedita {
+  background-color: #3a810d;
+  margin-left: -10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.consectetur {
+  background-color: #3469fb;
+  color: yellow;
+  margin-left: -12px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.explicabo {
+  background-color: #3a810d;
+  color: yellow;
+  padding-top: 2px;
+  padding-right: 10px;
+  margin-right: -10px;
+}

@@ -1,0 +1,137 @@
+.a {
+  background-color: #1dabb8;
+}
+.b {
+  line-height: 100px;
+  background-color: #3c3741;
+}
+.c {
+  background-color: #97ce68;
+}
+.d {
+  background-color: #953163;
+}
+.e {
+  background-color: #ff6766;
+  line-height: 100px;
+}
+.f {
+  background-color: #eb9532;
+  line-height: 100px;
+}
+
+.g {
+  background-color: #3c3741;
+}
+.h {
+  background-color: #3c3741;
+}
+.i {
+  height: 0;
+  width: 150px;
+  line-height: 100px;
+}
+.j {
+  width: 130px !important;
+  height: 175px;
+  background-color: #fdd09f;
+  line-height: 175px;
+}
+.k {
+  width: 100px !important;
+  border: 2px solid #71ba51;
+  line-height: 100px;
+  background-color: #58a836;
+}
+.l {
+  width: 100px !important;
+  line-height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(241, 150, 192, 1) 0%,
+    rgba(221, 99, 164, 1) 87%
+  );
+}
+.pac-man {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+}
+.m {
+  background-color: #e26e67;
+}
+.n {
+  background-color: #249991;
+}
+.o {
+  background-color: #54573a;
+}
+.p {
+  background-color: #32557f;
+}
+.q {
+  width: 0 !important;
+  height: 0;
+}
+.s {
+  width: 0 !important;
+  height: 0;
+  line-height: 100px;
+}
+.t {
+  line-height: 200px;
+  background-color: #cd6b97;
+}
+.w {
+  position: relative;
+  height: 150px;
+  line-height: 150px;
+  margin: 20px 0;
+  background: rgb(14, 13, 13);
+  border: 5px solid #a5a192;
+  text-indent: 0.1em;
+}
+.x {
+  background: #203040;
+  line-height: 96px;
+}
+.y {
+  background: #f6cd61;
+  margin-left: 20px;
+  margin-top: 55px;
+  position: relative;
+  line-height: 95px;
+}
+.y:before {
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+.z {
+  position: relative;
+  width: 100px !important;
+  height: 90px;
+  line-height: 90px;
+}
+.z:before,
+.z:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.z:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
