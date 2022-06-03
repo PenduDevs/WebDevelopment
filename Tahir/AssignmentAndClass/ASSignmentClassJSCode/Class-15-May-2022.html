@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Even Odd by Tahir</title>
+</head>
+
+<body>
+  <input type="number" id="number" placeholder="enter the number" />
+  <button id="Btn">Test it</button>
+
+  <script>
+    function getNumber() {
+      number = document.getElementById("number").value;
+      string = "";
+      if (number % 2 == 0) {
+        string = "Even"
+      }
+      else
+        string = "odd"
+
+      alert(string)
+    }
+    document.getElementById("Btn").addEventListener("click", getNumber);
+
+
+  </script>
+</body>
+
+</html>

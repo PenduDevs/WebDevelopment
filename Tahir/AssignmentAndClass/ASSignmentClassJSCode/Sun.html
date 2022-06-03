@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sum animation</title>
+
+  <style>
+    #my-sun {
+      width: 10px;
+      height: 10px;
+      background-color: rgb(228, 216, 84);
+      border-radius: 50%;
+      position: absolute;
+
+      right: 100px;
+      top: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="my-sun"></div>
+
+  <script>
+    var delay = 100;
+    setTimeout(moveSun, delay);
+    var sun = document.getElementById('my-sun');
+    var l = 10;
+    var right = 100;
+
+    function moveSun() {
+      l = l + 5;
+      right += 10;
+
+      console.log("right is", right, "and radius is", l);
+      sun.style.width = l + 'px';
+      sun.style.height = l + 'px';
+      sun.style.right = right + 'px';
+
+      if (right >= 500) {
+        right = 100;
+      }
+
+      if (l >= 200) {
+        l = 10;
+      }
+
+      setTimeout(moveSun, delay);
+    }
+  </script>
+</body>
+
+</html>

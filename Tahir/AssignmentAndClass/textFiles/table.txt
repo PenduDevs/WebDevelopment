@@ -1,0 +1,5 @@
+i= N
+for (j=1; j<=i; j++){
+	str = "2 " + "x" +" ${j}" + "=" + ${2*j}
+	console.log(str)
+}

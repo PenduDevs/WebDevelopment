@@ -1,0 +1,69 @@
+function printBigger(a, b){
+
+}
+-------------------------------------
+var year
+if(year % 4==0 && year % 100 !=0){
+	console.log(year + "is leap year")
+}
+else{
+	console.log(year + "is not leap year")
+}
+-----------------------------------------------
+function is50(a){
+	return a==50
+}
+------------------------------------------------
+function sumIsLessThan50(a, b){
+    return (a+b) < 50
+}
+-------------------------------------------------
+function is50(a, b){
+   return a==50? true :b ==50? true: (a+b)==50? true: false
+}
+-------------------------------------------------
+- Write a JavaScript that return true if number is 50, false otherwise. 
+function is50(a){
+
+}
+- Wrtite a program that take two numbers and return the bigger one
+function printBigger(a, b){
+}
+
+
+- Write a JavaScript program to check if sum of two given numbers is less than 50
+function sumIsLessThan50(a, b){
+
+}
+
+
+- Write a JavaScript program to determine whether a given year is a leap year
+function isLeapYear(year){
+
+}
+
+
+- Write a JavaScript program to check from two given integers, whether one is positive and another one is negative
+function printPositiveAndNegative(a, b){
+
+}
+
+
+- Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit
+  c/5 = (f-32)/9 
+
+function toFahrenheit(c){
+
+}
+
+function toCelsius(c){
+
+}
+
+
+
+
+- Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50
+function is50(a, b){
+
+}

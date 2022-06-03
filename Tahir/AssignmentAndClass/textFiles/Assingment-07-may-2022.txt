@@ -1,0 +1,6 @@
+01) Read documentation of five functions of array
+02) Find real word example of functions with input and output
+03) Hash 3 functions in js tell definitions 
+Array findindex
+Real world = fan input and output 
+Datastructure = some value and some functions to perform on it
