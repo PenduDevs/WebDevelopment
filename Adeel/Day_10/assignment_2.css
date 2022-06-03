@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color:pink;
+    background-color: yellow;
+}
+
+@media  (max-width: 1200px) {
+    body {
+        background-color: aqua;
+        color: green;
+        font-size: 20px;
+    }
+}
+
+@media  (max-width: 700px) {
+    body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+}
+@media  (max-width: 400px) {
+    body{
+        background-color: grey;
+        color: lightcoral;
+        font-size: 10px;
+    }
+}
+@media only print {
+    body {
+        background-color: white;
+        color: black;
+        font-size: 30px;
+    }
+}

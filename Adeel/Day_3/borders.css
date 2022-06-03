@@ -1,0 +1,114 @@
+.a {
+  border-top: 10px solid rgb(9, 56, 9);
+  border-right: 10px solid green;
+  border-bottom-left-radius: 50%;
+  border: 10px double rgb(104, 71, 71);
+}
+.b {
+  border-radius: 50%;
+  border-top: 10px inset rgb(204, 201, 30);
+}
+.c {
+  border-radius: 10px 20px 30px 40px/30px;
+  border-top: 10px dotted #1dabb8;
+  border-bottom: 10px dotted #1dabb8;
+}
+.d {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top: 10px dashed #8870ff;
+  border-bottom: 10px dashed #8870ff;
+}
+.e {
+  border-radius: 50% / 100% 100% 0 0;
+  border-top: 10px solid #97ce68;
+}
+.f {
+  border-radius: 50% / 0 0 100% 100%;
+  border-bottom: 10px solid #ee543a;
+  border-top: 10px inset #d8335b;
+}
+
+.g {
+  border-radius: 100% 0 0 100% / 50%;
+  border-right: 10px solid #faca9b;
+}
+.h {
+  border-radius: 0 100% 100% 0 / 50%;
+}
+.i {
+  border-bottom: 100px solid #8870ff;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+.j {
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.k {
+  border: 2px solid #71ba51;
+  border-radius: 0 100%;
+}
+.l {
+  border: 2px solid #5ce65c;
+  border-radius: 0 50% 50% 50%;
+}
+.pac-man {
+  border-top: 60px solid #199ba0;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid #128121;
+  border-left: 60px solid #32557f;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.m {
+  border-radius: 74% 26% 56% 44% / 44% 70% 30% 56%;
+  border-top: 10px solid green;
+  border-bottom: 5px dashed #c41111;
+}
+.n {
+  border-radius: 42% 58% 17% 83% / 44% 81% 19% 56%;
+  border-bottom: 10px solid #331e1e;
+  border-top: 10px solid #4fdf23;
+}
+.o {
+  border-top-left-radius: 60px 100%;
+  border-top-right-radius: 10% 40%;
+  border-bottom-left-radius: 300px 100px;
+  border-bottom-right-radius: 10%;
+}
+.p {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid lightskyblue;
+}
+.q {
+  border-top: 100px solid lightgreen;
+  border-right: 100px solid mediumpurple;
+  border-bottom: 100px solid lightsalmon;
+  border-left: 100px solid moccasin;
+}
+.s {
+  border-top: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #fec606;
+  border-left: 100px solid transparent;
+}
+.t {
+  border-radius: 50%;
+}
+.w {
+  border-radius: 50% / 10%;
+  border: 5px solid #a5a192;
+}
+.x {
+  border-top: 10px double #c5b2b2;
+  border-left: 10px groove red;
+  border-bottom: 10px outset blue;
+}
+.y:before {
+  border-bottom: 35px solid rgb(184, 151, 151);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}

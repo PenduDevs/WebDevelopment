@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form_six.css" />
+    <script
+      src="https://kit.fontawesome.com/c82db3d2a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form id="form">
+      <div id="wrapper">
+        <h2>Contact Us</h2>
+        <label class="name" for="full_name">Tell Us Your Name</label>
+          <input id="full_name" type="text" placeholder="Enter Your Name" required />
+        <div>
+          <label class="email"for="email">Email</label>
+          <label class="phone"for="phone">Phone</label>
+          <input
+          id="email"
+          class="email"
+          type="email"
+          placeholder="Enter Your Email"
+          required
+        />
+
+        <input
+        id="phone"
+        class="phone"
+        type="phone"
+        placeholder="Enter Your Phone"
+        required
+      />
+        </div>
+        <select id="form">
+            <option value="volvo">Please Choose</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        <div>
+          <label class="service" for="service">Need Service</label>
+          <textarea class="service" name="" id="service" cols="60" rows="5">Please Choose</textarea>
+        </div>
+          <button id="btn" type="submit" form="form" value="Submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

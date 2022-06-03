@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment One</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c82db3d2a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="myCard">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="myLeftCtn">
+              <form class="myForm text-center">
+                <header>Create New Account</header>
+                <div class="form-group">
+                  <i class="fa-solid fa-user"></i>
+                  <input
+                    class="myInput"
+                    type="text"
+                    placeholder="Username"
+                    id="username"
+                    required
+                  />
+                  <div class="invalid-feedback">Please Fill Out this field</div>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                  <input
+                    class="myInput"
+                    type="text"
+                    placeholder="Email"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input
+                    class="myInput"
+                    type="password"
+                    placeholder="Password"
+                    id="password"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input id="check_1" name="check_1" type="checkbox" required>
+                         <small>i read and agree to terms & conditions</small>
+                       </input>
+                    </label>
+                </div>
+
+                <input type="submit" class="butt" value=" Create Account">
+              </form>
+            </div>
+          </div> <div class="col-md-6">
+             <div class="myRightCtn"><div class="box"><header>Hello world!</header>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, dolore doloribus fuga quis quisquam dicta eum architecto libero? Molestias ullam nesciunt illo neque repudiandae!</p>
+                    <input type="button" class="butt_out" value="Learn More">
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="./bootstrap_example.html">bootstrap example</a>
+  </body>
+</html>

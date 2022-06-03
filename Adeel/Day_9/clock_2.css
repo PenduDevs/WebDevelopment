@@ -1,0 +1,143 @@
+body {
+  background-color: #f67e4f;
+}
+#wrapper {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 20px 3px black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #faebd7;
+  border: 20px solid white;
+}
+.dots {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
+}
+.twelve-top {
+  top: 3%;
+  left: 50%;
+}
+.three-right {
+  top: 50%;
+  right: 0%;
+}
+.six-bottom {
+  left: 50%;
+  bottom: -3%;
+}
+.nine-left {
+  top: 50%;
+  left: 2%;
+}
+.minutes-time {
+  position: absolute;
+  color: #f46f75;
+  font-size: 20px;
+  font-weight: 600;
+  top: 50%;
+}
+.one {
+  top: 7.5%;
+  right: 23%;
+}
+.two {
+  top: 25%;
+  right: 7%;
+}
+.four {
+  right: 9%;
+  top: 75%;
+}
+.five {
+  right: 26%;
+  top: 90%;
+}
+.seven {
+  top: 90%;
+  left: 26%;
+}
+.eight {
+  top: 75%;
+  left: 9%;
+}
+.ten {
+  top: 25%;
+  left: 7%;
+}
+.eleven {
+  top: 7.5%;
+  left: 23%;
+}
+.dot-midlle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.hand {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-radius: 6px;
+}
+.hour {
+  width: 150px;
+  height: 13px;
+  background: #000;
+  transform: rotate(45deg);
+  transform-origin: 8% 8%;
+}
+.minute {
+  height: 8px;
+  width: 250px;
+  background: #000;
+  transform: rotate(90deg);
+  transform-origin: 2% 12%;
+}
+.second {
+  background: red;
+  width: 270px;
+  height: 5px;
+  transform-origin: bottom center;
+}
+.digital {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  background-color: #fff;
+  top: 47.5%;
+  left: 7%;
+  border-radius: 7px;
+  box-shadow: inset 0px 0px 8px 0px black;
+}
+.digital-time1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  padding-left: 5%;
+  position: absolute;
+}
+.digital-time2 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #000;
+  position: absolute;
+  padding-left: 31.5%;
+}
+.digital-time3 {
+  position: absolute;
+  font-size: 18px;
+  color: red;
+  padding-left: 70%;
+  padding-top: 7%;
+}

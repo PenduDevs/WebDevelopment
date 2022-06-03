@@ -1,0 +1,147 @@
+body {
+  background: url("https://images.unsplash.com/photo-1521459467264-802e2ef3141f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3024&q=80");
+}
+#wrapper {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 10px 10px 30px 10px rgb(0, 0, 0);
+  top: 50%;
+  left: 50%;
+  background: url("https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3358&q=80");
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 30%,
+    rgb(14, 13, 14) 65%
+  );
+  border: 30px solid white;
+}
+#wrapper::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: transparent;
+  border: 20px solid black;
+}
+.box {
+  position: absolute;
+  width: 7px;
+  height: 25px;
+  background-color: #fff;
+}
+.one {
+  top: 2%;
+  left:50%;
+}
+.two {
+  top: 10%;
+  right: 22%;
+  transform: rotate(45deg);
+}
+.three {
+  right: 9%;
+  top: 25%;
+  transform: rotate(60deg);
+
+}
+.four {
+  top: 50%;
+  right: 3%;
+  transform: rotate(90deg);
+}
+.five {
+  right: 28%;
+  top: 88.5%;
+  transform: rotate(330deg);
+}
+.six {
+  left: 50%;
+  bottom: 1%;
+}
+.seven {
+  top: 88.5%;
+  left: 28%;
+  transform: rotate(30deg);
+}
+.eight {
+  top: 75%;
+  left: 12.5%;
+  transform: rotate(45deg);
+}
+.nine {
+  top: 48%;
+  left: 3%;
+  transform: rotate(90deg);
+}
+.ten {
+  top: 25%;
+  left: 9%;
+  transform: rotate(300deg);
+
+}
+.eleven {
+  top: 7.5%;
+  left: 25%;
+  transform: rotate(318deg);
+}
+.twelve {
+  top: 75%;
+  right: 12.5%;
+  transform: rotate(120deg);
+}
+.dot-midlle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.hand {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.hour {
+  width: 150px;
+  height: 13px;
+  background: #000;
+  transform: rotate(45deg);
+  transform-origin: 8% 8%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  box-shadow: -10px 0px 10px rgba(0,0,0,.4);
+}
+.minute {
+  height: 3px;
+  width: 190px;
+  background: #000;
+  transform: rotate(-39deg);
+  transform-origin: 0% 70%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  box-shadow: -10px 10px 10px rgba(0,0,0,.4);
+}
+.second {
+  background: hotpink;
+  width: 180px;
+  height: 5px;
+  border-right: 20px solid black;
+  border-radius: 40%;
+  box-shadow: -10px -10px 10px rgba(0,0,0,.4);
+}
+.text{
+    position: absolute;
+    left: 45%;
+    top:15%;
+}

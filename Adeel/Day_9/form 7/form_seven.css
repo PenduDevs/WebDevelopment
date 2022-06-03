@@ -1,0 +1,109 @@
+body {
+  /* background-color: #e6e6e6; */
+}
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+}
+.full_name {
+  position: absolute;
+  margin: 125px 0px 0px 20px;
+  font-size: 20px;
+}
+#full_name {
+  margin: 150px 20px 0px 20px;
+  width: 25%;
+  font-size: 0.875rem;
+  border-bottom: 2px solid #dbdbdb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #495057;
+}
+.last_name {
+  position: absolute;
+  margin: 120px 0px 0px 270px;
+  font-size: 20px;
+}
+#last_name {
+  margin: 0px 20px 0px 90px;
+  width: 25%;
+  font-size: 0.875rem;
+  border-bottom: 2px solid #dbdbdb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #495057;
+}
+.email {
+  position: absolute;
+  margin: 20px 0px 5px 20px;
+  font-size: 20px;
+}
+#email {
+  margin: 60px 0px 10px 20px;
+  width: 70%;
+  font-size: 0.875rem;
+  border-bottom: 2px solid #dbdbdb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #495057;
+}
+.message {
+  position: absolute;
+  margin: 110px 0px 5px 20px;
+}
+#message {
+  margin: 140px 10px 0px 20px;
+  font-size: 0.875rem;
+  border-bottom: 2px solid #dbdbdb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #495057;
+}
+#btn {
+  width: 25%;
+  margin: 150px 0px 0px 20px;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  cursor: pointer;
+  background-color: #00bcd4;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 1px;
+}
+#btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 48, 48);
+}
+.right-container {
+  left: 100%;
+  top: 0%;
+  position: absolute;
+  width: 50%;
+}
+hr {
+  position: relative;
+  margin-top: 100px;
+  left: 40%;
+  transform: rotate(90deg);
+}
+a {
+  color: red;
+  text-decoration: none;
+}
